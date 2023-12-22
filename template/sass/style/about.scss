@@ -1,0 +1,408 @@
+// default settings
+.container {
+  padding: 0 2rem;
+}
+
+// style - mobile first
+
+  // header
+  .about_heroSection {
+    height: auto;
+    width: 100%;
+    background-color: $blue_first;
+  }
+
+  .about_heroSection_mainTextSection {
+    height: auto;
+    width: 100%;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .about_heroSection_mainTextSectionTitle {
+    color: $blue_third;
+    font-size: 24px;
+  }
+
+  .about_heroSection_mainTextSectionParagraph {
+    color: $white;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  // main content
+  .about_mainContent {
+    height: auto;
+    width: 100%;
+  }
+
+    // about us section
+    .about_mainContent_aboutUsSection {
+      height: auto;
+      width: 100%;
+      padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .about_mainContent_aboutUsSectionTitle {
+      color: $blue_first;
+      font-size: 24px;
+      border-bottom: 2px solid $blue_third;
+      padding: .25rem 0;
+    }
+
+    .about_mainContent_aboutUsSectionArticle {
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .about_mainContent_aboutUsSectionArticleParagraph {
+      color: $black;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    // mission, vision and values section
+    .about_mainContent_missionVisionValuesSection {
+      height: auto;
+      width: 100%;
+      padding: 4rem 2rem;
+      background-color: $blue_fifth;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticle,
+    .about_mainContent_missionVisionValuesSectionVisionArticle,
+    .about_mainContent_missionVisionValuesSectionValuesArticle {
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticle img,
+    .about_mainContent_missionVisionValuesSectionVisionArticle img,
+    .about_mainContent_missionVisionValuesSectionValuesArticle img {
+      height: auto;
+      width: 150px;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticleTitle,
+    .about_mainContent_missionVisionValuesSectionVisionArticleTitle,
+    .about_mainContent_missionVisionValuesSectionValuesArticleTitle {
+      color: $blue_first;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticleParagraph,
+    .about_mainContent_missionVisionValuesSectionVisionArticleParagraph,
+    .about_mainContent_missionVisionValuesSectionValuesArticleParagraph {
+      color: $black;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    // carousel section
+    .about_mainContent_carrouselSection {
+      height: auto;
+      width: 100%;
+      padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .about_mainContent_carrouselSectionTitle {
+      color: $blue_first;
+      text-align: center;
+      font-size: 30px;
+      padding: .25rem 0;
+    }
+
+    .about_mainContent_carrouselSectionCarouselBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .about_mainContent_carouselSectionCarouselImg {
+      background-color: gray;
+      height: 150px;
+      width: 250px;
+    }
+
+    .about_mainContent_carouselSectionCarouselControlBtn {
+      height: auto;
+      width: 30px;
+      cursor: pointer;
+    }
+
+// responsive
+@media screen and (min-width: 1280px) {
+  // default settings
+  .container {
+    padding: 0 8rem;
+  }
+
+  // header
+  .about_heroSection_mainTextSection {
+    padding: 5rem 8rem;
+    gap: 2rem;
+  }
+
+  .about_heroSection_mainTextSectionTitle {
+    font-size: 30px;
+  }
+
+  .about_heroSection_mainTextSectionParagraph {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  // main content
+
+    // about us section
+    .about_mainContent_aboutUsSection {
+      padding: 5rem 8rem;
+      gap: 3rem;
+    }
+
+    .about_mainContent_aboutUsSectionTitle {
+      font-size: 30px;
+    }
+
+    .about_mainContent_aboutUsSectionArticle {
+      gap: 3rem;
+    }
+
+    .about_mainContent_aboutUsSectionArticleParagraph {
+      width: 60%;
+      font-size: 14px;
+    }
+    
+    .about_mainContent_aboutUsSectionArticleVideo {
+      background-color: gray;
+      height: 230px;
+      width: 550px;
+    }
+
+    // mission, vision and values section
+    .about_mainContent_missionVisionValuesSection {
+      padding: 4rem 8rem;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticleTitle,
+    .about_mainContent_missionVisionValuesSectionVisionArticleTitle,
+    .about_mainContent_missionVisionValuesSectionValuesArticleTitle {
+      font-size: 30px;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticleParagraph,
+    .about_mainContent_missionVisionValuesSectionVisionArticleParagraph,
+    .about_mainContent_missionVisionValuesSectionValuesArticleParagraph {
+      font-size: 14px;
+    }
+
+    // carousel section
+    .about_mainContent_carrouselSection {
+      padding: 3rem 8rem;
+      gap: 2rem;
+    }
+
+    .about_mainContent_carrouselSectionCarouselBox {
+      gap: 1.5rem;
+    }
+
+    .about_mainContent_carouselSectionCarouselImg {
+      height: 300px;
+      width: 600px;
+    }
+
+    .about_mainContent_carouselSectionCarouselControlBtn {
+      width: 40px;
+    }
+}
+
+@media screen and (min-width: 884px) {
+  // default settings
+  .container {
+    padding: 0 6rem;
+  }
+
+  // header
+  .about_heroSection_mainTextSection {
+    padding: 4rem 6rem;
+  }
+
+  .about_heroSection_mainTextSectionTitle {
+    font-size: 30px;
+  }
+
+  .about_heroSection_mainTextSectionParagraph {
+    font-size: 16px;
+  }
+
+  // main content
+
+    // about us section
+    .about_mainContent_aboutUsSection {
+      padding: 4rem 6rem;
+    }
+
+    .about_mainContent_aboutUsSectionTitle {
+      font-size: 30px;
+    }
+
+    .about_mainContent_aboutUsSectionArticleParagraph {
+      font-size: 16px;
+    }
+
+    // mission, vision and values section
+    .about_mainContent_missionVisionValuesSection {
+      padding: 4rem 6rem;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticle,
+    .about_mainContent_missionVisionValuesSectionVisionArticle,
+    .about_mainContent_missionVisionValuesSectionValuesArticle {
+      width: 300px;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticle img,
+    .about_mainContent_missionVisionValuesSectionVisionArticle img,
+    .about_mainContent_missionVisionValuesSectionValuesArticle img {
+      width: 180px;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticleTitle,
+    .about_mainContent_missionVisionValuesSectionVisionArticleTitle,
+    .about_mainContent_missionVisionValuesSectionValuesArticleTitle {
+      font-size: 30px;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticleParagraph,
+    .about_mainContent_missionVisionValuesSectionVisionArticleParagraph,
+    .about_mainContent_missionVisionValuesSectionValuesArticleParagraph {
+      font-size: 18px;
+    }
+
+    // carousel section
+    .about_mainContent_carrouselSection {
+      padding: 3rem 6rem;
+      gap: 1.5rem;
+    }
+
+    .about_mainContent_carouselSectionCarouselImg {
+      height: 200px;
+      width: 350px;
+    }
+
+    .about_mainContent_carouselSectionCarouselControlBtn {
+      width: 40px;
+    }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 834px) {
+  // default settings
+  .container {
+    padding: 0 5rem;
+  }
+
+  // header
+  .about_heroSection_mainTextSection {
+    padding: 4rem 5rem;
+  }
+
+  .about_heroSection_mainTextSectionTitle {
+    font-size: 30px;
+  }
+
+  .about_heroSection_mainTextSectionParagraph {
+    font-size: 16px;
+  }
+
+  // main content
+
+    // about us section
+    .about_mainContent_aboutUsSection {
+      padding: 4rem 5rem;
+    }
+
+    .about_mainContent_aboutUsSectionTitle {
+      font-size: 30px;
+    }
+
+    .about_mainContent_aboutUsSectionArticleParagraph {
+      font-size: 16px;
+    }
+
+    // mission, vision and values section
+    .about_mainContent_missionVisionValuesSection {
+      padding: 4rem 5rem;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticle,
+    .about_mainContent_missionVisionValuesSectionVisionArticle,
+    .about_mainContent_missionVisionValuesSectionValuesArticle {
+      width: 300px;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticle img,
+    .about_mainContent_missionVisionValuesSectionVisionArticle img,
+    .about_mainContent_missionVisionValuesSectionValuesArticle img {
+      width: 180px;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticleTitle,
+    .about_mainContent_missionVisionValuesSectionVisionArticleTitle,
+    .about_mainContent_missionVisionValuesSectionValuesArticleTitle {
+      font-size: 30px;
+    }
+
+    .about_mainContent_missionVisionValuesSectionMissionArticleParagraph,
+    .about_mainContent_missionVisionValuesSectionVisionArticleParagraph,
+    .about_mainContent_missionVisionValuesSectionValuesArticleParagraph {
+      font-size: 18px;
+    }
+
+    // carousel section
+    .about_mainContent_carrouselSection {
+      padding: 3rem 5rem;
+      gap: 1.5rem;
+    }
+
+    .about_mainContent_carouselSectionCarouselImg {
+      height: 200px;
+      width: 350px;
+    }
+
+    .about_mainContent_carouselSectionCarouselControlBtn {
+      width: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  // carousel section
+  .about_mainContent_carouselSectionCarouselImg {
+    background-color: gray;
+    height: 120px;
+    width: 250px;
+  }
+}

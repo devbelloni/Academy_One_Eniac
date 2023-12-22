@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F6F6F6;
+}
+
+.cloud-h1 {
+    color:#4D49BF;
+    text-align: center;
+    font-size: 3.25vh;
+    font-family: 'Poppins';font-weight: bold;
+}
+
+/*paragráfos dessa página*/
+
+.cloud-pa {
+    font-family: 'Poppins';font-size: 2.25vh; 
+    text-align: center;
+    margin-top: 1cm;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+.cloud-img{
+    text-align: center;
+    padding: 1vh;
+}
+
+/*texto abaixo da imagem!*/
+
+.cloud-textbelow{
+    font-family: 'Poppins';font-weight: bold;
+    font-style: bold;
+    font-size: 2.5vh; 
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.cloud-card{
+
+    width: 390px;
+    height: 390px;
+    padding: 9px;
+    background-color: #4D49BF; /* Azul do carrousel */
+    color: #BE53FF; /* Texto insaaaano cor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 50px auto;
+    text-align: center;
+}

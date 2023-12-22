@@ -1,0 +1,733 @@
+// default settings
+.container {
+  padding: 0 2rem;
+}
+
+// style - mobile first
+
+  // header
+  .index_heroSection {
+    height: auto;
+    width: 100%;
+    background-color: $blue_first;
+  }
+
+  .index_heroSection_mainTextSection {
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .index_heroSection_mainTextSection img {
+    height: auto;
+    width: 100%;
+  }
+
+  .index_heroSection_mainTextSectionTitle {
+    color: $blue_third;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .index_heroSection_mainTextSectionParagraph {
+    color: $white;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .index_heroSection_mainTextSectionCtaBtn {
+    background-color: $blue_third;
+    color: $white;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.5rem;
+    transition: .8s;
+    cursor: pointer;
+  }
+
+  .index_heroSection_mainTextSectionCtaBtn:hover {
+    transform: scale(1.05);
+  }
+
+  .index_heroSection_mainTextSectionDesktop {
+    display: none;
+    height: auto;
+    width: 100%;
+    padding: 5rem 8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .index_heroSection_mainTextSectionDesktop img {
+    height: 300px;
+    width: auto;
+  }
+
+  .index_heroSection_mainTextSectionDesktopArticle {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .index_heroSection_mainTextSectionDesktopTitle {
+    width: 70%;
+    color: $blue_third;
+    font-size: 25px;
+  }
+
+  .index_heroSection_mainTextSectionDesktopParagraph {
+    width: 95%;
+    color: $white;
+    font-size: 14px;
+  }
+
+  .index_heroSection_mainTextSectionDesktopCtaBtn {
+    background-color: $blue_third;
+    color: $white;
+    margin-top: 1.5rem;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.5rem;
+    transition: .8s;
+    cursor: pointer;
+  }
+
+  .index_heroSection_mainTextSectionDesktopCtaBtn:hover {
+    transform: scale(1.05);
+  }
+
+  // main content
+  .index_mainContent {
+    height: auto;
+    width: 100%;
+  }
+
+    // our goal section
+    .index_mainContent_ourGoalSection {
+      height: auto;
+      width: 100%;
+      padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .index_mainContent_ourGoalSectionTitleBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .index_mainContent_ourGoalSectionTitle {
+      color: $blue_first;
+      font-size: 24px;
+      border-bottom: 2px solid $blue_third;
+      padding: .25rem 0;
+    }
+
+    .index_mainContent_ourGoalSectionArticle {
+      height: auto;
+      width: 100%;
+    }
+
+    .index_mainContent_ourGoalSectionArticleParagraph {
+      color: $black;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    // our stations section
+    .index_mainContent_ourStationsSection {
+      height: auto;
+      width: 100%;
+      padding: 3rem 2rem;
+      background-color: $blue_fifth;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    .index_mainContent_ourStationsSectionTitleBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .index_mainContent_ourStationsSectionTitle {
+      width: 90%;
+      color: $blue_first;
+      text-align: center;
+      font-size: 24px;
+      border-bottom: 2px solid $blue_third;
+      padding: .5rem 0;
+    }
+
+    .index_mainContent_ourStationsSectionArticle {
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .index_mainContent_ourStationsSectionArticleParagraph {
+      color: $black;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButtonsBox {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton {
+      height: auto;
+      width: 90%;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton button {
+      height: 8vh;
+      width: 100%;
+      border: none;
+      outline: none;
+      font-family: 'Righteous', sans-serif;
+      font-size: 32px;
+      transition: .5s;
+      cursor: pointer;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton button:hover {
+      transform: scale(1.05);
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(1) button,
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(2) button,
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(3) button {
+      background-color: $green_third;
+      color: $green_first;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(4) button,
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(5) button,
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(6) button {
+      background-color: $orange_third;
+      color: $orange_first;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(7) button {
+      background-color: $purple_third;
+      color: $purple_first;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(8) button,
+    .index_mainContent_ourStationSectionDestinationButton:nth-child(9) button {
+      background-color: $light-blue_third;
+      color: $light-blue_first;
+    }
+
+    // testimonials section
+    .index_mainContent_testimonialsSection {
+      height: auto;
+      width: 100%;
+      padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .index_mainContent_testimonialsSectionTitleBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .index_mainContent_testimonialsSectionTitle {
+      color: $blue_first;
+      text-align: center;
+      font-size: 30px;
+      border-bottom: 2px solid $blue_third;
+      padding: .25rem 0;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarousel {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImgBox {
+      padding: 1rem 0;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImg {
+      background-color: gray;
+      height: 150px;
+      width: 150px;
+      border-radius: 100%;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImgControlBtn {
+      height: auto;
+      width: 30px;
+      cursor: pointer;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselStudentName {
+      color: $blue_first;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselParagraph {
+      color: $black;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialRowBox {
+      display: none;
+    }
+
+    // partner companies section
+    .index_mainContent_partnerCompaniesSection {
+      height: auto;
+      width: 100%;
+      padding: 2rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .index_mainContent_partnerCompaniesSectionTitleBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .index_mainContent_partnerCompaniesSectionTitle {
+      color: $blue_first;
+      text-align: center;
+      font-size: 30px;
+      border-bottom: 2px solid $blue_third;
+      padding: .25rem 0;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselBox {
+      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselImg {
+      background-color: gray;
+      height: 120px;
+      width: 230px;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselControlBtn {
+      height: auto;
+      width: 30px;
+      cursor: pointer;
+    }
+
+// responsive
+@media screen and (min-width: 1280px) {
+  // default settings
+  .container {
+    padding: 0 8rem;
+  }
+
+  .navbar_navigationLinksBox .navbar_navigationLink:nth-child(1) p {
+    padding: .25rem .75rem;
+    border-bottom: 2px solid $blue_third;
+  }
+
+  // header
+  .index_heroSection_mainTextSection {
+    display: none;
+  }
+
+  .index_heroSection_mainTextSectionDesktop {
+    display: flex;
+  }
+
+  // main content
+    // our goal section
+    .index_mainContent_ourGoalSection {
+      padding: 4rem 8rem;
+      gap: 3rem;
+    }
+
+    .index_mainContent_ourGoalSectionTitle {
+      font-size: 35px;
+    }
+
+    .index_mainContent_ourGoalSectionArticle {
+      width: 70%;
+    }
+
+    .index_mainContent_ourGoalSectionArticleParagraph {
+      font-size: 16px;
+    }
+
+    // our stations section
+    .index_mainContent_ourStationsSection {
+      padding: 5rem 8rem;
+      gap: 5rem;
+    }
+
+    .index_mainContent_ourStationsSectionArticle {
+      gap: 3rem;
+    }
+
+    .index_mainContent_ourStationsSectionTitle {
+      width: 60%;
+      font-size: 40px;
+    }
+
+    .index_mainContent_ourStationsSectionArticleParagraph {
+      width: 70%;
+      font-size: 16px;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButtonsBox {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton {
+      height: auto;
+      width: auto;
+    }
+
+    .index_mainContent_ourStationSectionDestinationButton button {
+      height: 150px;
+      width: 150px;
+    }
+
+    // testimonials section
+    .index_mainContent_testimonialsSection {
+      padding: 4rem 8rem;
+    }
+
+    .index_mainContent_testimonialsSectionTitle {
+      font-size: 40px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImg {
+      height: 250px;
+      width: 250px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImgControlBtn {
+      width: 50px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselStudentName {
+      font-size: 30px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselParagraph {
+      width: 80%;
+      font-size: 16px;
+    }
+
+    // partner companies section
+    .index_mainContent_partnerCompaniesSection {
+      padding: 4rem 8rem;
+    }
+
+    .index_mainContent_partnerCompaniesSectionTitle {
+      font-size: 40px;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselImg {
+      height: 250px;
+      width: 400px;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselControlBtn {
+      width: 50px;
+    }
+}
+
+@media screen and (min-width: 884px) {
+  // default settings
+  .container {
+    padding: 0 6rem;
+  }
+
+  // header
+  .index_heroSection_mainTextSection {
+    padding: 3rem 6rem;
+  }
+
+  .index_heroSection_mainTextSectionTitle {
+    font-size: 32px;
+  }
+
+  .index_heroSection_mainTextSectionParagraph {
+    font-size: 18px;
+  }
+
+  // main content
+    // our goal section
+    .index_mainContent_ourGoalSection {
+      padding: 3rem 6rem;
+      gap: 2.5rem;
+    }
+
+    .index_mainContent_ourGoalSectionTitle {
+      font-size: 40px;
+    }
+
+    .index_mainContent_ourGoalSectionArticle {
+      height: auto;
+      width: 100%;
+    }
+
+    .index_mainContent_ourGoalSectionArticleParagraph {
+      color: $black;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    // our stations section
+    .index_mainContent_ourStationsSection {
+      height: auto;
+      width: 100%;
+      padding: 3rem 6rem;
+      background-color: $blue_fifth;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    .index_mainContent_ourStationsSectionTitle {
+      width: 60%;
+      font-size: 40px;
+    }
+
+    .index_mainContent_ourStationsSectionArticleParagraph {
+      font-size: 16px;
+    }
+
+    // testimonials section
+    .index_mainContent_testimonialsSection {
+      padding: 3rem 5rem;
+    }
+
+    .index_mainContent_testimonialsSectionTitle {
+      font-size: 40px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImg {
+      height: 250px;
+      width: 250px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImgControlBtn {
+      width: 50px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselStudentName {
+      font-size: 30px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselParagraph {
+      width: 80%;
+      font-size: 16px;
+    }
+
+    // partner companies section
+    .index_mainContent_partnerCompaniesSection {
+      padding: 2rem 6rem;
+    }
+
+    .index_mainContent_partnerCompaniesSectionTitle {
+      font-size: 40px;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselImg {
+      height: 250px;
+      width: 400px;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselControlBtn {
+      width: 50px;
+    }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 834px) {
+  // default settings
+  .container {
+    padding: 0 5rem;
+  }
+
+  // header
+  .index_heroSection_mainTextSection {
+    padding: 4rem 0;
+  }
+
+  .index_heroSection_mainTextSectionTitle {
+    font-size: 30px;
+  }
+
+  .index_heroSection_mainTextSectionParagraph {
+    font-size: 16px;
+  }
+
+  .index_heroSection_mainTextSectionCtaBtn {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+  }
+
+  // main content
+    // our goal section
+    .index_mainContent_ourGoalSection {
+      padding: 3rem 5rem;
+      gap: 2rem;
+    }
+
+    .index_mainContent_ourGoalSectionTitle {
+      font-size: 30px;
+    }
+
+    .index_mainContent_ourGoalSectionArticle {
+      height: auto;
+      width: 100%;
+    }
+
+    .index_mainContent_ourGoalSectionArticleParagraph {
+      color: $black;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    // our stations section
+    .index_mainContent_ourStationsSection {
+      height: auto;
+      width: 100%;
+      padding: 3rem 5rem;
+      background-color: $blue_fifth;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    .index_mainContent_ourStationsSectionTitle {
+      width: 60%;
+      font-size: 30px;
+    }
+
+    .index_mainContent_ourStationsSectionArticleParagraph {
+      font-size: 16px;
+    }
+
+    // testimonials section
+    .index_mainContent_testimonialsSection {
+      padding: 3rem 5rem;
+    }
+
+    .index_mainContent_testimonialsSectionTitle {
+      font-size: 40px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImg {
+      height: 250px;
+      width: 250px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselImgControlBtn {
+      width: 50px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselStudentName {
+      font-size: 30px;
+    }
+
+    .index_mainContent_testimonialsSectionTestimonialCarouselParagraph {
+      width: 80%;
+      font-size: 16px;
+    }
+
+    // partner companies section
+    .index_mainContent_partnerCompaniesSection {
+      padding: 2rem 5rem;
+    }
+
+    .index_mainContent_partnerCompaniesSectionTitle {
+      font-size: 40px;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselImg {
+      height: 250px;
+      width: 400px;
+    }
+
+    .index_mainContent_partnerCompaniesSectionCarouselControlBtn {
+      width: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  // header
+  .index_heroSection_mainTextSectionTitle {
+    font-size: 18px;
+  }
+
+  .index_heroSection_mainTextSectionCtaBtn {
+    font-size: 1.25rem;
+  }
+
+  // our goal section
+  .index_mainContent_ourGoalSectionTitle {
+    color: $blue_first;
+    font-size: 18px;
+    border-bottom: 2px solid $blue_third;
+    padding: .25rem 0;
+  }
+
+  // our stations section
+  .index_mainContent_ourStationsSectionTitle {
+    width: 100%;
+  }
+
+  .index_mainContent_ourStationSectionDestinationButton button {
+    height: 10vh;
+  }
+
+  // partner companies section
+  .index_mainContent_partnerCompaniesSectionTitle {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F6F6F6;
+}
+
+.bpo-h1 {
+    color:#F2DF44;
+    text-align: center;
+    font-size: 3.25vh;
+    font-family: 'Poppins';font-weight: bold;
+}
+
+/*paragráfos dessa página*/
+
+.bpo-pa {
+    font-family: 'Poppins';font-size: 2.25vh; 
+    text-align: center;
+    margin-top: 1cm;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+.bpo-img{
+    text-align: center;
+    padding: 1vh;
+}
+
+/*texto abaixo da imagem!*/
+
+.bpo-textbelow{
+    font-family: 'Poppins';font-weight: bold;
+    font-style: bold;
+    font-size: 2.5vh; 
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.bpo-card{
+
+    width: 390px;
+    height: 390px;
+    padding: 8px;
+    background-color: #F2B544; /* laranja do carrousel */
+    color: #F98439; /* Texto insaaaano cor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 50px auto;
+    text-align: center;
+}

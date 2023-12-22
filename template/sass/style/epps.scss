@@ -1,0 +1,260 @@
+// default settings
+.bg-green-second {
+  background-color: $green_second;
+}
+
+.bg-orange-second {
+  background-color: $orange_second;
+}
+
+.bg-purple-second {
+  background-color: $purple_second;
+}
+
+.bg-blue-second {
+  background-color: $blue_second;
+}
+
+.bg-green-third {
+  background-color: $green_third;
+}
+
+.bg-orange-third {
+  background-color: $orange_third;
+}
+
+.bg-purple-third {
+  background-color: $purple_third;
+}
+
+.bg-blue-third {
+  background-color: $blue_third;
+}
+
+// style - mobile first
+
+  // header
+  .epps_heroSection {
+    height: auto;
+    width: 100%;
+    background-color: $blue_first;
+  }
+
+  // main content
+  .epps_mainContent {
+    height: auto;
+    width: auto;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .epps_mainContent_mainTitle {
+    font-size: 24px;
+  }
+
+  .epps_mainContent_eppsDropdownsSection {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagement,
+  .epps_mainContent_eppsDropdownADM,
+  .epps_mainContent_eppsDropdownIT,
+  .epps_mainContent_eppsDropdownMarket {
+    height: auto;
+    width: 100%;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeader,
+  .epps_mainContent_eppsDropdownADMHeader,
+  .epps_mainContent_eppsDropdownITHeader,
+  .epps_mainContent_eppsDropdownMarketHeader {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeaderTitle,
+  .epps_mainContent_eppsDropdownADMHeaderTitle,
+  .epps_mainContent_eppsDropdownITHeaderTitle,
+  .epps_mainContent_eppsDropdownMarketHeaderTitle {
+    font-size: 24px;
+    color: $white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeaderArrowControl,
+  .epps_mainContent_eppsDropdownADMHeaderArrowControl,
+  .epps_mainContent_eppsDropdownITHeaderArrowControl,
+  .epps_mainContent_eppsDropdownMarketHeaderArrowControl {
+    height: 15px;
+    width: auto;
+  }
+
+  .epps_mainContent_eppsDropdownManagementLinksBox,
+  .epps_mainContent_eppsDropdownADMLinksBox,
+  .epps_mainContent_eppsDropdownITLinksBox,
+  .epps_mainContent_eppsDropdownMarketLinksBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagementLink,
+  .epps_mainContent_eppsDropdownADMLink,
+  .epps_mainContent_eppsDropdownITLink,
+  .epps_mainContent_eppsDropdownMarketLink {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .epps_mainContent_eppsDropdownManagementLink:hover,
+  .epps_mainContent_eppsDropdownADMLink:hover,
+  .epps_mainContent_eppsDropdownITLink:hover,
+  .epps_mainContent_eppsDropdownMarketLink:hover {
+    transform: scale(1.05);
+  }
+  
+  .epps_mainContent_eppsDropdownManagementLink img,
+  .epps_mainContent_eppsDropdownADMLink img,
+  .epps_mainContent_eppsDropdownITLink img,
+  .epps_mainContent_eppsDropdownMarketLink img {
+    height: 6vh;
+    width: auto;
+  }
+
+// responsive
+@media screen and (min-width: 1280px) {
+  // main content
+  .epps_mainContent {
+    height: 80vh;
+    padding: 2rem 8rem;
+  }
+
+  .epps_mainContent_mainTitle {
+    font-size: 40px;
+  }
+
+  .epps_mainContent_eppsDropdownsSection {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .epps_mainContent_eppsDropdownManagement,
+  .epps_mainContent_eppsDropdownADM,
+  .epps_mainContent_eppsDropdownIT,
+  .epps_mainContent_eppsDropdownMarket {
+    width: 300px;
+    padding: 3rem 1.5rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeaderTitle,
+  .epps_mainContent_eppsDropdownADMHeaderTitle,
+  .epps_mainContent_eppsDropdownITHeaderTitle,
+  .epps_mainContent_eppsDropdownMarketHeaderTitle {
+    font-size: 25px;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeaderArrowControl,
+  .epps_mainContent_eppsDropdownADMHeaderArrowControl,
+  .epps_mainContent_eppsDropdownITHeaderArrowControl,
+  .epps_mainContent_eppsDropdownMarketHeaderArrowControl {
+    display: none;
+  }
+
+  .epps_mainContent_eppsDropdownManagementLink img,
+  .epps_mainContent_eppsDropdownADMLink img,
+  .epps_mainContent_eppsDropdownITLink img,
+  .epps_mainContent_eppsDropdownMarketLink img {
+    height: 4vh;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  // main content
+  .epps_mainContent_mainTitle {
+    font-size: 40px;
+  }
+
+  .epps_mainContent {
+    padding: 4rem 8rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagement,
+  .epps_mainContent_eppsDropdownADM,
+  .epps_mainContent_eppsDropdownIT,
+  .epps_mainContent_eppsDropdownMarket {
+    padding: 3rem 3rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeaderTitle,
+  .epps_mainContent_eppsDropdownADMHeaderTitle,
+  .epps_mainContent_eppsDropdownITHeaderTitle,
+  .epps_mainContent_eppsDropdownMarketHeaderTitle {
+    font-size: 40px;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeaderArrowControl,
+  .epps_mainContent_eppsDropdownADMHeaderArrowControl,
+  .epps_mainContent_eppsDropdownITHeaderArrowControl,
+  .epps_mainContent_eppsDropdownMarketHeaderArrowControl {
+    height: 25px;
+  }
+
+  .epps_mainContent_eppsDropdownManagementLink img,
+  .epps_mainContent_eppsDropdownADMLink img,
+  .epps_mainContent_eppsDropdownITLink img,
+  .epps_mainContent_eppsDropdownMarketLink img {
+    height: 5vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 834px) {
+  // main content
+  .epps_mainContent_mainTitle {
+    font-size: 40px;
+  }
+
+  .epps_mainContent {
+    padding: 4rem 5rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagement,
+  .epps_mainContent_eppsDropdownADM,
+  .epps_mainContent_eppsDropdownIT,
+  .epps_mainContent_eppsDropdownMarket {
+    padding: 3rem 2rem;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeaderTitle,
+  .epps_mainContent_eppsDropdownADMHeaderTitle,
+  .epps_mainContent_eppsDropdownITHeaderTitle,
+  .epps_mainContent_eppsDropdownMarketHeaderTitle {
+    font-size: 40px;
+  }
+
+  .epps_mainContent_eppsDropdownManagementHeaderArrowControl,
+  .epps_mainContent_eppsDropdownADMHeaderArrowControl,
+  .epps_mainContent_eppsDropdownITHeaderArrowControl,
+  .epps_mainContent_eppsDropdownMarketHeaderArrowControl {
+    height: 25px;
+  }
+}

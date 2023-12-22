@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    /*Header*/
+
+header{
+    background-color: #F2B544;
+
+    padding: 25px;
+}
+
+.get{
+    display: flex;
+   margin-left: 110vh;
+    
+
+}
+.get img{
+    margin-top: -300px;
+    width: 450px;
+    height: 140px;
+    padding: 40px;
+
+}
+h1{
+    display: flex;
+    margin-left: 120px;
+    color: #F98439;
+    margin-top: 35px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Righteous;
+    text-align: center;
+}
+p{
+    display: flex;
+    color: #ffffff;
+    padding: 25px;
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 15px;
+    font-family: Poppins;
+}
+
+.botao{
+    display: flex;
+    padding: 40px;
+    margin-left: 100px;
+    width: 250px;
+}
+
+/*Header - FIM*/
+button{
+    width: 270px;
+    height: 50px;
+    background: #F98439;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    align-items: center;
+    font-family: Righteous;
+    font-size: 18px;
+    border-style: none;
+
+}
+
+section{
+    background: #ffffff;
+    height: 205px;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#F2B544;
+    margin-top: 35px;
+    font-size: 29,8px;
+    font-weight: 400;
+    font-family: Righteous;
+    text-align: center;
+}
+#text_fun{
+    display: flex;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    padding: 40px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+
+
+#serv{
+    background-color: #F2B544;
+    height: 350px;
+}
+
+/*Responsabilidades*/
+.align{
+    display: flex;     
+}
+
+#respon{
+    display: inline-block;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#text_respon{
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    padding: 40px;
+    margin-top: -15px;
+    margin-left: 90px;
+    margin-right: 5%;
+
+
+}
+
+
+.img1{
+
+    margin-top: 50px;
+    height: 100px;
+    width: 120px;
+    margin-left: 100px
+    
+}
+
+.img1 img{
+    position: relative;
+    margin-left: 100px;
+
+}
+
+.img2 img{
+    position: relative;
+    margin-left: 130px;
+
+}
+
+.img3 img{
+    position: relative;
+    margin-left: 150px;
+
+}
+
+
+.img2{
+  
+    margin-top: 50px;
+    height: 120px;
+    width: 120px;
+
+}
+
+.img3{
+    
+    margin-top: 50px;
+    height: 120px;
+    width: 120px;
+   
+
+}
+
+#text_neg{
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+    margin-left: -110px;
+    font-size: 10px;
+    padding: 90px;
+        
+}
+
+
+
+
+
+/*Responsabilidades - FIM*/
+
+
+/*Serviços*/
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F98439;
+    font-size: 30px;
+    font-family: Righteous;
+    text-align: center;
+    font-weight: 400;
+    padding: 15px;
+}
+
+
+.circulo {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    background-color: #F98439;
+    margin: -70px;
+    margin-top: -5px;
+    position: absolute;
+
+}
+
+.wrapper {
+    display:inline-block;
+    width: 270px;
+    height: 50px;
+    margin: 90px;
+    padding: 20px;
+    border: 3px solid #ffffff;
+    margin-right: 25px;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  #box{
+      margin-top: -10px;
+      margin-left: 5px;
+      text-align: center;
+      font-size: 15px;
+      font-family: Poppins;
+      font-weight: 400
+  }
+  #img{
+      display: flex;
+      margin-top: 5px;
+      margin: 1px;
+      padding: 15px;
+      width: 40px;
+      height:40px;
+  }
+
+/*Serviços - FIM*/
+
+/*Ideal Para */
+#ideal{
+    justify-content: center;
+    margin-top: 60vh;
+    align-items: center;
+}
+
+
+.IP_img1{
+    margin-top: 20px;
+    height: 90px;
+    width: 20px;
+    padding: 25px;
+    margin-left: 170px;
+
+    
+   
+}
+
+.IP_img2{
+
+    margin-top: 10px;
+    height: 90px;
+    width: 20px;
+    padding: 25px;
+    margin-left: 180px;
+
+}
+
+.IP_img3{  
+   margin-top: 10px;
+    height: 80px;
+    width: 20px;
+    padding: 25px;
+    margin-left: 180px;
+
+}
+
+.IP_img1 img{
+    position: relative;
+    margin-left: -50px; 
+   
+}
+
+.IP_img2 img{
+    position: relative;
+    margin-left: 50px; 
+   
+}
+
+.IP_img3 img{
+    position: relative;
+    margin-left: -10px; 
+   
+}
+
+.text_neg{
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+    margin-left: -150px;
+    font-size: 10px;
+    padding: 90px;
+        
+}
+
+img{
+    width: 150px;
+    height:100px;
+}
+
+
+
+/*Ideal Para - FIM*/
+
+
+
+
+/*
+/*Responsivo*/
+@media (max-width: 450px) {
+
+/*Header*/
+header{
+    
+    height: 100vh;
+    
+    
+}
+
+.get{
+    margin-top: -350px;
+    margin-left: -20px;
+    padding: -190px;
+    
+
+
+}
+.get img{
+     width: 300px;
+    height: 100px;
+  
+}
+
+h1{
+    margin-top: 190px;
+   margin-left: 5px;
+    font-size: 30px;
+    
+   text-align: center;
+   
+   
+}
+p{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+    font-size: 15px;
+    text-align:justify;
+}
+
+.botao{
+    margin-top: -10px;
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+
+
+button{
+    width: 270px;
+    height: 50px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    align-items: center;
+    font-family: Righteous;
+    font-size: 18px;
+    border-style: none;
+
+}
+
+
+/*Como Funciona*/
+section{
+    
+    height: 500px;
+}
+
+#text_fun{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    padding: 40px;
+    margin-top: -15px;
+}
+#cf{
+    margin-left: 10px;
+}
+
+/*Como Funciona - FIM*/
+
+
+
+/*Ads*/
+.img1{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+#text_neg{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+    z-index: -15px;
+}
+
+/*Ads - FIM*/
+
+
+ /*Serviços*/
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Righteous;
+    text-align: center;
+    padding: 15px;
+}
+
+#serv{
+    height: 800px;
+}
+
+.circulo {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    margin: -70px;
+    margin-top: -5px;
+    position: absolute;
+
+
+}
+.wrapper {
+
+    width: 200px;
+    height: 60px;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    margin-left: 70px;
+    margin-right: 25px;
+    border-radius: 15px;
+    position: relative;
+  }
+
+   #box{
+      margin-top: -10px;
+      text-align: center;
+      font-size: 15px;
+      font-family: Poppins;
+      font-weight: bold;
+  }
+
+   #img{
+      display: flex;
+      margin-top: 3px;
+      padding: 18px;
+      width: 30px;
+      height: 30px;
+  }
+/*Serviços- FIM*/
+
+/*Responsabilidades*/
+
+
+#respon{
+    margin-left: -60px;
+    }
+
+#text_respon{
+    color: black;
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+    font-size: 13px;
+}
+
+.align{
+   flex-direction: column;
+   margin-top: 10px;
+}
+
+h2{
+  margin-left: 60px;
+}
+
+
+
+img{
+    width: 90px;
+    height: 90px;
+}
+.img1{
+    margin-top: 10px;
+    height: 90px;
+    width: 20px;
+    margin-left: 170px;
+
+    
+   
+}
+
+.img2{
+
+    margin-top: 10px;
+    height: 90px;
+    width: 20px;
+    padding: 30px;
+    margin-left: 50px;
+
+}
+
+.img3{  
+   margin-top: 50px;
+    height: 80px;
+    width: 20px;
+    padding: 35px;
+    margin-left: 40px;
+
+}
+
+#text_neg{
+    margin-top: -40px;
+    color: black;
+    font-weight: bolder;
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+    font-size: 12px;
+    margin-left: 75px;
+        
+}
+
+/*Responsabilidades - FIM*/
+
+/*Ideal Para*/
+#ideal{
+    margin-left: -60px;
+    margin-top: 120vh;
+   
+}
+
+.IP_img1{
+    margin-top: 20px;
+    height: 90px;
+    width: 20px;
+    padding: 25px;
+    margin-left: 240px;
+
+    
+   
+}
+
+.IP_img2{
+
+    margin-top: 10px;
+    height: 90px;
+    width: 20px;
+    padding: 25px;
+    margin-left: 140px;
+
+}
+
+.IP_img3{  
+   margin-top: 50px;
+    height: 80px;
+    width: 20px;
+    padding: 25px;
+    margin-left: 210px;
+
+}
+
+.text_neg{
+       margin-top: -40px;
+    color: black;
+    font-weight: bolder;
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+    font-size: 12px;
+    margin-left: 75px;
+
+}
+
+/*Ideal Para - FIM*/
+
+}

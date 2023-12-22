@@ -1,0 +1,237 @@
+// default settings
+.container {
+  padding: 0 2rem;
+}
+
+// style - mobile first
+
+  // header
+  .contact_header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact_header_backBtn {
+    height: 25px;
+    width: auto;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  // main content
+  .contact_mainContent {
+    height: auto;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contact_mainContent_mainTitleIlustrationBox {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_mainContent_mainTitle {
+    font-size: 20px;
+  }
+
+  .contact_mainContent_contactInformationsSection {
+    height: auto;
+    width: 100%;
+    background-color: $blue_second;
+    padding: 2rem 2rem;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact_mainContent_contactInformationsWhatsappBox,
+  .contact_mainContent_contactInformationsLocationBox,
+  .contact_mainContent_contactInformationsEmailBox {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+  }
+
+  .contact_mainContent_contactInformationsWhatsappBox img,
+  .contact_mainContent_contactInformationsLocationBox img,
+  .contact_mainContent_contactInformationsEmailBox img {
+    height: auto;
+    width: 30px;
+  }
+
+  .contact_mainContent_contactInformationsWhatsappBox p,
+  .contact_mainContent_contactInformationsLocationBox p,
+  .contact_mainContent_contactInformationsEmailBox p {
+    color: $white;
+    font-size: 12px;
+  }
+
+  // footer
+  .contact_footer {
+    height: auto;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .contact_footer_icon img {
+    height: auto;
+    width: 50px;
+    transition: .5s;
+  }
+
+  .contact_footer_icon img:hover {
+    transform: scale(1.1);
+  }
+
+// responsive
+@media screen and (min-width: 1280px) {
+// default settings
+.container {
+  padding: 0 8rem;
+}
+
+  // main content
+  .contact_mainContent {
+    padding: 2rem 8rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .contact_mainContent_mainTitleIlustrationBox {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 884px) {
+// default settings
+.container {
+  padding: 0 6rem;
+}
+
+// style - mobile first
+
+  // header
+  .contact_header img {
+    height: 60px;
+    width: auto;
+  }
+
+  // main content
+  .contact_mainContent {
+    height: 80vh;
+    padding: 2rem 6rem;
+    justify-content: center;
+  }
+
+  .contact_mainContent_mainTitle {
+    font-size: 25px;
+  }
+
+  .contact_mainContent_contactInformationsSection {
+    width: 400px;
+  }
+
+  .contact_mainContent_contactInformationsWhatsappBox img,
+  .contact_mainContent_contactInformationsLocationBox img,
+  .contact_mainContent_contactInformationsEmailBox img {
+    width: 40px;
+  }
+
+  .contact_mainContent_contactInformationsWhatsappBox p,
+  .contact_mainContent_contactInformationsLocationBox p,
+  .contact_mainContent_contactInformationsEmailBox p {
+    font-size: 14px;
+  }
+
+  // footer
+  .contact_footer {
+    height: 10vh;
+    padding: 0;
+    align-items: center;
+  }
+
+  .contact_footer_icon img {
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 834px) {
+// default settings
+.container {
+  padding: 0 5rem;
+}
+
+// style - mobile first
+
+  // header
+  .contact_header img {
+    height: 60px;
+    width: auto;
+  }
+
+  // main content
+  .contact_mainContent {
+    height: 80vh;
+    padding: 2rem 5rem;
+    justify-content: center;
+  }
+
+  .contact_mainContent_mainTitle {
+    font-size: 25px;
+  }
+
+  .contact_mainContent_contactInformationsSection {
+    width: 400px;
+  }
+
+  .contact_mainContent_contactInformationsWhatsappBox img,
+  .contact_mainContent_contactInformationsLocationBox img,
+  .contact_mainContent_contactInformationsEmailBox img {
+    width: 40px;
+  }
+
+  .contact_mainContent_contactInformationsWhatsappBox p,
+  .contact_mainContent_contactInformationsLocationBox p,
+  .contact_mainContent_contactInformationsEmailBox p {
+    font-size: 14px;
+  }
+
+  // footer
+  .contact_footer {
+    height: 10vh;
+    padding: 0;
+    align-items: center;
+  }
+
+  .contact_footer_icon img {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact_header {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

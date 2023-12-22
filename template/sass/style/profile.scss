@@ -1,0 +1,218 @@
+// default settings
+.container {
+  padding: 0 2rem;
+}
+
+// style - mobile first
+
+  // header
+  .profile_heroSection {
+    height: 25vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .profile_heroSection_backBtn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .profile_heroSection_logoAcademy {
+    height: 120px;
+    width: auto;
+  }
+
+  // main content
+  .profile_mainContent {
+    height: 75vh;
+    width: 100%;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .profile_mainContent_mainTitle {
+    color: $blue_first;
+  }
+
+  .profile_mainContent_profileImg {
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+  }
+
+  .profile_mainContent_mainTextArticle {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .profile_mainContent_mainTextArticleUsernameBox,
+  .profile_mainContent_mainTextArticleRaBox,
+  .profile_mainContent_mainTextArticleStationBox {
+    height: auto;
+    width: 100%;
+  }
+
+  .profile_mainContent_mainTextArticleUsernameLabel,
+  .profile_mainContent_mainTextArticleRaLabel,
+  .profile_mainContent_mainTextArticleStationLabel {
+    color: $blue_first;
+    font-weight: bold;
+  }
+
+  .profile_mainContent_mainTextArticleUsername,
+  .profile_mainContent_mainTextArticleRa,
+  .profile_mainContent_mainTextArticleStation {
+    margin-left: 2rem;
+  }
+
+// responsive
+@media screen and (min-width: 1280px) {
+  // header
+  .profile_heroSection {
+    height: 25vh;
+  }
+
+  .profile_heroSection_logoAcademy {
+    height: 150px;
+  }
+
+  // main content
+  .profile_mainContent {
+    padding: 2rem 15rem;
+    gap: 2rem;
+  }
+
+  .profile_mainContent_mainTitle {
+    font-size: 40px;
+  }
+
+  .profile_mainContent_profileImg {
+    height: 180px;
+    width: 180px;
+  }
+
+  .profile_mainContent_mainTextArticleUsernameLabel,
+  .profile_mainContent_mainTextArticleRaLabel,
+  .profile_mainContent_mainTextArticleStationLabel {
+    font-size: 20px;
+  }
+
+  .profile_mainContent_mainTextArticleUsername,
+  .profile_mainContent_mainTextArticleRa,
+  .profile_mainContent_mainTextArticleStation {
+    font-size: 20px;
+  }
+}
+
+@media screen and (width: 884px) {
+    // header
+    .profile_heroSection {
+      height: 20vh;
+    }
+  
+    .profile_heroSection_logoAcademy {
+      height: 150px;
+    }
+  
+    // main content
+    .profile_mainContent {
+      height: 80vh;
+      padding: 4rem 6rem;
+      gap: 3rem;
+    }
+  
+    .profile_mainContent_mainTitle {
+      font-size: 40px;
+    }
+  
+    .profile_mainContent_profileImg {
+      height: 200px;
+      width: 200px;
+    }
+  
+    .profile_mainContent_mainTextArticle {
+      gap: 1.5rem;
+    }
+  
+    .profile_mainContent_mainTextArticleUsernameLabel,
+    .profile_mainContent_mainTextArticleRaLabel,
+    .profile_mainContent_mainTextArticleStationLabel {
+      font-size: 25px;
+    }
+  
+    .profile_mainContent_mainTextArticleUsername,
+    .profile_mainContent_mainTextArticleRa,
+    .profile_mainContent_mainTextArticleStation {
+      font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 834px) {
+  // header
+  .profile_heroSection {
+    height: 20vh;
+  }
+
+  .profile_heroSection_logoAcademy {
+    height: 150px;
+  }
+
+  // main content
+  .profile_mainContent {
+    height: 80vh;
+    padding: 4rem 5rem;
+    gap: 2rem;
+  }
+
+  .profile_mainContent_mainTitle {
+    font-size: 40px;
+  }
+
+  .profile_mainContent_profileImg {
+    height: 200px;
+    width: 200px;
+  }
+
+  .profile_mainContent_mainTextArticle {
+    gap: 1.5rem;
+  }
+
+  .profile_mainContent_mainTextArticleUsernameLabel,
+  .profile_mainContent_mainTextArticleRaLabel,
+  .profile_mainContent_mainTextArticleStationLabel {
+    font-size: 25px;
+  }
+
+  .profile_mainContent_mainTextArticleUsername,
+  .profile_mainContent_mainTextArticleRa,
+  .profile_mainContent_mainTextArticleStation {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  // header
+  .profile_heroSection {
+    height: 30vh;
+  }
+
+  .profile_heroSection_logoAcademy {
+    height: 100px;
+  }
+
+  // main content
+  .profile_mainContent {
+    height: auto;
+  }
+}

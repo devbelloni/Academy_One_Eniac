@@ -1,0 +1,13 @@
+// archives required
+@import './global.scss';
+@import './colors.scss';
+
+// main pages style
+@import './style/index.scss'; // --> index.php
+@import './style/about.scss'; // --> about.php
+@import './style/profile.scss'; // --> profile.php
+@import './style/contact.scss'; // --> contact.php
+@import './style/epps.scss'; // --> epps.php
+
+// epp's pages style
+@import './style/epps style/pmo.scss'; // --> PMO.php

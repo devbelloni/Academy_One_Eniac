@@ -1,0 +1,177 @@
+// archives required
+@import './colors.scss';
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+
+// default settings
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Righteous', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $blue_second;
+}
+
+// components
+
+  // navbar
+  .navbar {
+    height: 15vh;
+    width: 100%;
+    padding: 1rem 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  
+  .menuHamburguerBox {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+  }
+  
+  .menuHamburguerTopLine,
+  .menuHamburguerMiddleLine,
+  .menuHamburguerBottomLine {
+    background-color: $white;
+    display: block;
+    height: 2px;
+    width: 30px;
+    border-radius: 30px;
+    transition: all .3s linear;
+  }
+  
+  .navbar_navigationLinksBox {
+    display: none;
+  }
+
+    // navbar responsive
+    @media screen and (min-width: 1280px) {
+      .navbar {
+        height: 10vh;
+        padding: 0 8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .menuHamburguerBox {
+        display: none;
+      }
+
+      .navbar_navigationLinksBox {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      .navbar_navigationLink {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: $white;
+        text-decoration: none;
+      }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 884px) {
+      .navbar {
+        height: 10vh;
+      }
+
+      .navbar img {
+        height: auto;
+        width: 300px;
+      }
+
+      .menuHamburguerBox {
+        gap: .4rem;
+      }
+
+      .menuHamburguerTopLine,
+      .menuHamburguerMiddleLine,
+      .menuHamburguerBottomLine {
+        height: 3px;
+        width: 35px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .navbar {
+        height: 20vh;
+        width: 100%;
+        padding: 1rem 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+      }
+
+      .navbar img {
+        height: auto;
+        width: 200px;
+      }
+    }
+  
+  // footer
+  .footer {
+    height: 15vh;
+    width: 100%;
+    background-color: $blue_first;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer img {
+    height: 50px;
+    width: auto;
+  }
+
+    // footer responsive
+    @media screen and (min-width: 768px) {
+      .footer {
+        height: 10vh;
+      }
+
+      .footer img {
+        height: 60px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      .footer img {
+        height: 40px;
+      }
+    }

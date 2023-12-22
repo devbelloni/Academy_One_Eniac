@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body,html{
+    width: auto;
+    height: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 5vh;
+    color: blue;
+}
+
+.titulo-beneficios{
+    text-align: center;
+    font-size: 5vh;
+    color: blue;
+    padding-top: 5vh;
+
+}
+
+.texto{
+    text-align: center;
+    width: 90vw;
+    font-size: 3vh;
+    padding-top: 5vh;
+    
+
+}
+
+.imagem{
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 5vh;
+
+
+}
+
+.div-card{
+    width: 100%;
+    background-color: #4D49BF;
+    height: 50vh;
+   
+}
+
+.titulo-card{
+    padding-top: 10vh;
+    color: #BE53FF;
+
+}
+
+.card-competencias{
+    width: 50vh;
+    height: 30vh;
+    background-color: #4D49BF;
+}
